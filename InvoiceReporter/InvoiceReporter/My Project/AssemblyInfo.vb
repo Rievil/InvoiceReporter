@@ -9,10 +9,10 @@ Imports System.Security
 
 ' Zkontrolujte hodnoty atributů sestavení.
 
-<Assembly: AssemblyTitle("ReporterAddon")> 
+<Assembly: AssemblyTitle("InvoiceReporter")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("ReporterAddon")> 
+<Assembly: AssemblyProduct("InvoiceReporter")> 
 <Assembly: AssemblyCopyright("Copyright ©  2020")> 
 <Assembly: AssemblyTrademark("")> 
 
@@ -22,7 +22,7 @@ Imports System.Security
 <Assembly: ComVisible(False)>
 
 'Následující GUID se používá pro ID knihovny typů, pokud je tento projekt vystavený pro COM.
-<Assembly: Guid("a4212dfb-74e6-4189-9a4d-dd32c2f41c72")> 
+<Assembly: Guid("a3fcd949-05f3-4306-9950-76c1dfb6e858")> 
 
 ' Informace o verzi sestavení se skládá z těchto čtyř hodnot:
 '
