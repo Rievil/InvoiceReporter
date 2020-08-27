@@ -185,10 +185,23 @@
   -->
   <ItemGroup>
     <AppDesigner Include="My Project\" />
+    <Compile Include="BasicSetup2.vb" />
+    <Compile Include="Ribbon1.Designer.vb">
+      <DependentUpon>Ribbon1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ribbon1.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ThisAddIn.vb">
       <SubType>Code</SubType>
     </Compile>
+    <EmbeddedResource Include="Ribbon1.resx">
+      <DependentUpon>Ribbon1.vb</DependentUpon>
+    </EmbeddedResource>
     <None Include="InvoiceReporter_TemporaryKey.pfx" />
+    <None Include="My Project\DataSources\BasicSetup2.datasource" />
+    <None Include="My Project\DataSources\Ribbon1.datasource" />
+    <None Include="My Project\DataSources\ThisAddIn.datasource" />
     <None Include="ThisAddIn.Designer.xml">
       <DependentUpon>ThisAddIn.vb</DependentUpon>
     </None>
